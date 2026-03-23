@@ -1,0 +1,31 @@
+//O que é variável e qual a sua composição?
+
+// O QUE É UMA VARIÁVEL?
+
+// Uma variável é um espaço na memória do computador
+// usado para armazenar um valor (número, texto, etc).
+
+// Pense como uma "caixinha" que guarda informação
+// e você pode usar essa informação depois no programa.
+
+// COMPOSIÇÃO DE UMA VARIÁVEL
+
+
+// Uma variável é formada por 3 partes:
+
+// 1. TIPO
+// Define que tipo de dado será armazenado
+// Exemplo:
+// int → número inteiro
+// double → número com decimal
+// String → texto
+
+// 2. NOME (IDENTIFICADOR)
+// É o nome que você dá para a variável
+// Exemplo:
+// idade, nome, distancia, media
+
+// 3. VALOR
+// É o dado que será armazenado na variável
+// Exemplo:
+// 10, 5.5, "Gabriel"

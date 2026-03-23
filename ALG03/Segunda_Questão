@@ -1,0 +1,20 @@
+//Qual a importância de utilizar o tipo primitivo correto em um algoritmo ?
+
+// IMPORTÂNCIA DO TIPO PRIMITIVO CORRETO
+
+// Usar o tipo correto garante que o programa
+// funcione de forma certa e sem erros.
+
+// PRINCIPAIS MOTIVOS
+
+// 1. Evita erros
+// Ex: usar int para número decimal dá problema
+
+// 2. Economia de memória
+// Cada tipo usa uma quantidade diferente
+
+// 3. Precisão dos dados
+// double guarda casas decimais, int não
+
+// 4. Melhor desempenho
+// Tipos corretos tornam o programa mais eficiente
