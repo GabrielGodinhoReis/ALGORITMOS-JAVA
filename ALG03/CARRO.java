@@ -1,3 +1,12 @@
+/* Programa para calcular tempo de viagem e consumo de combustível:
+   - Ler três valores do usuário:
+       * Distância em km
+       * Velocidade média em km/h
+       * Consumo de combustível em km/l
+   - Calcular o tempo de viagem: tempo = distancia / velocidade
+   - Calcular quantos litros serão necessários: litros = distancia / consumo
+   - Exibir o tempo de viagem e o total de litros necessários */
+
 import java.util.Scanner;
 
 public class CARRO {

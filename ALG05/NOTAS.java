@@ -1,3 +1,12 @@
+/* Informe as duas notas de um aluno (P1 e P2) e a quantidade de faltas no semestre.
+Calcule a média das notas e o percentual de faltas sobre 20 aulas.
+Caso o percentual de faltas seja maior que 30%, o aluno está automaticamente reprovado.
+Caso contrário, verifique se a média é maior ou igual a 6.
+Se afirmativo, o aluno está aprovado.
+Senão, informe uma nota P3 para recalcular a média.
+Se a nova média for maior ou igual a 6, escreva "aprovado no exame".
+Caso negativo, exiba "reprovado por nota". */
+
 import java.util.Scanner;
 
 public class NOTAS {

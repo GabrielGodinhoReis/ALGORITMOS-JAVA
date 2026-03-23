@@ -1,3 +1,10 @@
+/* Algoritmo para calcular a média ponderada de 3 provas:
+   - Primeira e segunda prova com peso 1, terceira prova com peso 2.
+   - Calcular a média ponderada: media = (P1*1 + P2*1 + P3*2)/4
+   - Mostrar a média do aluno.
+   - Se a média for maior ou igual a 60, o aluno está aprovado.
+   - Caso contrário, o aluno está reprovado. */
+
 import java.util.Scanner;
 
 public class PROVAS {

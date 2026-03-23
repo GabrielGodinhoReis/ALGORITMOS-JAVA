@@ -1,3 +1,9 @@
+/* Programa para converter distância em km para milhas:
+   - Ler uma distância em km do usuário
+   - Converter para milhas usando a relação: 1 milha = 1,60934 km
+       * milhas = km / 1,60934
+   - Exibir o valor da distância em milhas. */
+
 import java.util.Scanner;
 
 public class MILHAS {

@@ -1,3 +1,8 @@
+/* Algoritmo para verificar concessão de empréstimo:
+   - Ler o salário do trabalhador e o valor da prestação do empréstimo.
+   - Se a prestação for maior que 20% do salário: imprimir "Empréstimo não concedido".
+   - Caso contrário: imprimir "Empréstimo concedido". */
+
 import java.util.Scanner;
 
 public class EMPRESTIMO {

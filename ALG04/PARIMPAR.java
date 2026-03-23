@@ -1,3 +1,9 @@
+/* Algoritmo para identificar se um número inteiro é par ou ímpar:
+   - Receber um número inteiro.
+   - Calcular o resto da divisão por 2 usando: resto = numero % 2;
+   - Se o resto for 0, o número é par.
+   - Se o resto for 1, o número é ímpar. */
+
 import java.util.Scanner;
 
 public class PARIMPAR {

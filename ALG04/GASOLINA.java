@@ -1,3 +1,9 @@
+/* Algoritmo para escolher o combustível mais vantajoso:
+   - Informar dois valores reais: valor do litro da gasolina e valor do litro do álcool.
+   - Calcular 70% do valor da gasolina.
+   - Se o valor do álcool for menor que 70% da gasolina, o álcool é mais vantajoso.
+   - Caso contrário, a gasolina é mais vantajosa. */
+
 import java.util.Scanner;
 
 public class GASOLINA {

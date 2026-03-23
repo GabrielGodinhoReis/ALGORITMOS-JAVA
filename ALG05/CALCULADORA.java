@@ -1,3 +1,11 @@
+/*Informe dois números reais e um número inteiro que represente a operação matemática a ser realizada:
+1 - soma
+2 - subtração
+3 - multiplicação
+4 - divisão
+Utilize o comando de seleção aninhado (if dentro de if ou switch)
+e exiba o resultado da operação matemática escolhida. */
+
 import java.util.Scanner;
 
 public class CALCULADORA {
