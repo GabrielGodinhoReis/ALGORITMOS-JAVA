@@ -15,35 +15,34 @@ public class NOTAS {
 
         Scanner sc = new Scanner(System.in);
 
-        double p1, p2, media;
-        double faltas, porcentagem;
-        double p3, media2;
+        float p1, p2, p3, media;
+        float faltas, porcentagem;
 
         System.out.println("Digite a nota da Primeira Prova");
-        p1 = sc.nextDouble();
+        p1 = sc.nextFloat();
 
         System.out.println("Digite a nota da Segunda Prova:");
-        p2 = sc.nextDouble();
+        p2 = sc.nextFloat();
 
         System.out.println("Digite número de faltas:");
-        faltas = sc.nextDouble();
+        faltas = sc.nextFloat();
 
         media = (p1 + p2) / 2;
 
         porcentagem = (faltas / 20) * 100;
 
         if (porcentagem > 30) {
-            System.out.println("Aluno Reprovado");
+            System.out.println("Aluno Reprovado por Faltas");
         } else {
             if (media >= 6) {
                 System.out.println("Aluno Aprovado");
             } else {
                 System.out.println("Digite a nota da Terceira Prova:");
-                p3 = sc.nextDouble();
+                p3 = sc.nextFloat();
 
-                media2 = (media + p3) / 2;
+                media = (p1 + p2 + p3) / 3;
 
-                if (media2 >= 6) {
+                if (media >= 6) {
                     System.out.println("Aluno aprovado no exame");
                 } else {
                     System.out.println("Aluno reprovado por nota");
