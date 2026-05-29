@@ -42,7 +42,9 @@ public class NUM {
             System.out.println("Média: " + media);
 
         } else {
+            
             System.out.println("Nenhum número válido foi digitado.");
+
         }
 
         sc.close();

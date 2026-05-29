@@ -1,5 +1,3 @@
-// 5 - Caixa eletrônico com faça enquanto
-
 import java.util.Scanner;
 
 public class CAIXA {
